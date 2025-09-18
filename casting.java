@@ -34,3 +34,24 @@ class GFG{
     //    animal.fetch(); gives a compile error as fetch is not a method in animal class
     }
 }
+// downcasting
+class Girl {
+    public void eat(){
+        System.out.println("Girl eats healthy food");
+    }
+
+}
+class Health extends Girl{
+    public void workout(){
+        System.out.println("The girl loves to workout");
+    }
+}
+class Healthy{
+    public static void main(String[] args) {
+        Girl girl= new Health();
+        girl.eat();
+        // downcasting explicitly
+        Health health=(Health)girl;
+        health.workout();
+    }
+}
