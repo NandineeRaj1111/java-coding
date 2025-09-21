@@ -10,5 +10,8 @@ public class Student {
         this.gpa=gpa;
 
     }
+    void study(){
+        System.out.println(this.name + " studies hard");
+    }
 
 }
