@@ -1,14 +1,12 @@
 public class User {
     String username;
-    int id;
+    String id;
     String email;
-    User(String username, String email){
+    User(String username, String email,String id){
         this.username= username;
         this.email= email;
+        this.id=id;
         
-    }
-    User(int id){
-        this.id = id;
     }
     
 
