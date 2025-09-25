@@ -1,5 +1,5 @@
 public class Car {
-    String make="Ford";
+    // String make="Ford";
     String model="Mustang";
     String color;
     int year=2025;
