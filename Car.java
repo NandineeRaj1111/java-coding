@@ -1,4 +1,5 @@
 public class Car {
+    Engine engine;
     String make="Ford";
     String model="Mustang";
     String color;
@@ -10,11 +11,12 @@ public class Car {
        
     }
     // creating a constructor again for toString method
-    Car(String model, String color, String make, int year){
+    Car(String model, String color, String make, int year,String enginetype){
         this.model= model;
         this.make= make;
         this.color=color;
         this.year=year;
+        this.engine= new Engine(enginetype);
     }
     @Override
     public String toString(){

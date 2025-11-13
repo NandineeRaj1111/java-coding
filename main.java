@@ -12,5 +12,13 @@ public class main {
         System.out.println(user2.id);
         System.out.println(user2.email);
 
+        Car car= new Car("Swift","maruti","red",2026,"T7");
+        System.out.println(car.model);
+        System.out.println(car.make);
+        System.out.println(car.color);
+        System.out.println(car.year);
+        System.out.println(car.engine.type);
+
+
     }
 }
